@@ -1,0 +1,51 @@
+
+body {
+    margin: 5px;
+}
+
+table,
+td {
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+
+table {
+    width:100%;
+    border-spacing: 0;
+    text-align: center
+}
+
+td{
+    font-size: 20px;
+    height: 60px;
+}
+
+.cell1 {
+    width: 50%;
+    height: 120px;
+}
+
+.cell3 {
+    width: 25%;
+}
+
+tr:first-child {
+    background-color: #098f8f;
+    color: #171717;
+}
+
+tr:nth-child(2) {
+    background-color: #f5f509;
+    color: #696969;
+}
+
+tr:first-child:hover {
+    background-color: #171717;
+    color: #098f8f; /* Змінюємо колір тексту */
+}
+
+/* Hover ефекти для другого рядка */
+tr:nth-child(2):hover {
+    background-color: #696969;
+    color: #f5f509;
+}

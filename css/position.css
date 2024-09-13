@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px; /* Відступ зверху для центрування по вертикалі */
+}
+
+.flag_p {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+}
+
+.circle_p {
+    width: 110px;
+    height: 110px;
+    background-color: #ca0000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
